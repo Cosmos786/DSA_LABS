@@ -17,7 +17,7 @@ Node * Node::createNode(int data){
 	newNode->rightChild = NULL; // set right child pointer to null
 	return newNode;
 }
-void Node::insert(int num, Node *& root)
+void Node::insert(int num, Node * root)
 {
 	if (root == NULL)
 		root = createNode(num);

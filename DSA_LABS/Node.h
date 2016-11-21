@@ -8,7 +8,7 @@ private:
 public:
 	Node();
 	~Node();
-	void insert(int num, Node *& root);
+	void insert(int num, Node * root);
 	
 	Node * createNode(int data);
 	std::string inOrder(Node * root);
