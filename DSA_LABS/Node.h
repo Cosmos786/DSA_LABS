@@ -6,13 +6,25 @@ private:
 	Node * leftChild;
 	Node * rightChild;
 public:
+
+	/////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 	Node();
 	~Node();
-	void insert(int num, Node * root);
 	
-	Node * createNode(int data);
-	std::string inOrder(Node * root);
-	std::string preOrder(Node * root);
-	std::string postOrder(Node * root);
+	// Getter setter for Data
+	int GetData();
+	void SetData(int);
+
+	// Getter Setter for Right & Left Childs
+	void SetLeft(Node *);
+	Node *& GetLeft();
+	void SetRight(Node *);
+	Node *& GetRight();
+
+	
+	////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
 };
 

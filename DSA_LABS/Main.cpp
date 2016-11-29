@@ -1,46 +1,46 @@
 #include<iostream>
-#include "Node.h"
+#include "Tree.h"
 using namespace std;
 void test123(int* a);
 int main(){
 
-	// testing
+	//// testing
 
-	
-	int  var = 20;   // actual variable declaration.
-	int  *ip;        // pointer variable 
+	//
+	//int  var = 20;   // actual variable declaration.
+	//int  *ip;        // pointer variable 
 
-	ip = &var;       // store address of var in pointer variable
-	var = 90;
+	//ip = &var;       // store address of var in pointer variable
+	//var = 90;
 
-	cout << "Value of var variable: ";
-	cout << var << endl;
+	//cout << "Value of var variable: ";
+	//cout << var << endl;
 
-	// print the address stored in ip pointer variable
-	cout << "Address stored in ip variable: ";
-	cout << ip << endl;
-	test123(&var);
-	// access the value at the address available in pointer
-	cout << "Value of *ip variable: ";
-	cout <<  *ip << endl;
+	//// print the address stored in ip pointer variable
+	//cout << "Address stored in ip variable: ";
+	//cout << ip << endl;
+	//test123(&var);
+	//// access the value at the address available in pointer
+	//cout << "Value of *ip variable: ";
+	//cout <<  *ip << endl;
 
-	return 0;
+	//return 0;
 
 
-	//// end testing
-	//Node * root = NULL;
-	//Node n;
-	//n.insert(7, root);
-	//n.insert(4, root);
-	//n.insert(10, root);
-	//n.insert(8, root);
-	//n.insert(6, root);
-	//n.insert(13, root);
-	//n.insert(2, root);
-	//n.insert(5, root);
-	//cout << n.inOrder(root)<<endl;
-	//cout << n.preOrder(root) << endl;
-	//cout << n.postOrder(root) << endl;
+	// end testing
+	Tree treeObj;// = new Tree;
+	treeObj.Insert(7);
+	treeObj.Insert(4);
+	treeObj.Insert(10);
+	treeObj.Insert(8);
+	treeObj.Insert(6);
+	treeObj.Insert(13);
+	treeObj.Insert(2);
+	treeObj.Insert(5);
+		   
+	treeObj.InOrder();
+	treeObj.Delete(2);
+	treeObj.InOrder();
 }
 
 void test123(int* a){
