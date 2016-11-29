@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Lab09">
+      <UniqueIdentifier>{252e1de1-388e-425b-a033-98d58265d155}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lab09">
+      <UniqueIdentifier>{1dd13576-1f8b-4785-9fe6-800d4f7192fd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Node.h">
